@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>App Angular HTML Firebase Github Pages</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/img/faviconV2.png">
+  <style>.ae-container-fluid{margin-right:auto;margin-left:auto}.ae-container-fluid:after{clear:both}.ae-container-fluid:after,.ae-container-fluid:before{content:" ";display:table}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}@media (min-width:40em){.ae-container-fluid{max-width:88.88889em;width:95vw}}.ae-container-fluid--full{max-width:100%;padding-left:0;padding-right:0;width:100%}@media (max-width:63.99em){.ae-container-fluid{padding-left:.25rem;padding-right:.25rem}}body{background-color:#fff;color:#202020;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.125rem;line-height:1.5}h1{font-family:inherit;font-weight:500;line-height:1.2;margin:0 0 .75rem}h1{font-size:2.95312rem}a{color:#1d8acb;text-decoration:none}a:hover{text-decoration:underline}input{color:inherit;font:inherit;font-size:1rem;margin:0}input:disabled{opacity:.65;pointer-events:none}input[type=text]{border:.0625rem solid #e7e7e7;line-height:1.5;padding:.325rem .75rem;vertical-align:middle}label{padding-bottom:.325rem;padding-top:.325rem}</style><link rel="stylesheet" href="assets/css/aurora-pack.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/aurora-pack.min.css"></noscript>
+  <style>@font-face{font-family:Aileron;font-style:normal;font-weight:400;src:url(fonts/aurora-theme-base-fonts/aileron-regular.woff2) format("woff2"),url(fonts/aurora-theme-base-fonts/aileron-regular.woff) format("woff")}@font-face{font-family:Aileron;font-style:normal;font-weight:500;src:url(fonts/aurora-theme-base-fonts/aileron-semibold.woff2) format("woff2"),url(fonts/aurora-theme-base-fonts/aileron-semibold.woff) format("woff")}@font-face{font-family:Aileron;font-style:normal;font-weight:700;src:url(fonts/aurora-theme-base-fonts/aileron-bold.woff2) format("woff2"),url(fonts/aurora-theme-base-fonts/aileron-bold.woff) format("woff")}@font-face{font-family:Aileron;font-style:normal;font-weight:900;src:url(fonts/aurora-theme-base-fonts/aileron-black.woff2) format("woff2"),url(fonts/aurora-theme-base-fonts/aileron-black.woff) format("woff")}body{line-height:1.556;font-family:Aileron,Helvetica,Arial,sans-serif}a{color:inherit;-webkit-transition:color .3s;transition:color .3s}a:hover{color:#a0a0a0}a:not(.au-underline){text-decoration:none}input[type=text]{background:#f6f6f6;border:0;font-size:inherit;letter-spacing:.04em;margin-bottom:.5rem;padding:2.2rem 3rem}input[type=text]:focus{outline:0}</style><link rel="stylesheet" href="assets/css/aurora-theme-base.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/aurora-theme-base.min.css"></noscript>
+  <style>@charset "UTF-8";body{margin:0}.rk-container{margin-right:auto;margin-left:auto;padding-left:.25rem;padding-right:.25rem}@media (min-width: 40em){.rk-container{max-width:88.88889em;width:95vw}}@media (min-width: 64em){.rk-container{padding-left:0;padding-right:0}}.rk-header{background-color:#fff;position:relative;z-index:5}.top-fixed .rk-header{position:fixed}.rk-topbar{-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding-bottom:3.3rem;padding-top:2.8rem}@media (min-width: 64em){.rk-topbar{padding-bottom:0}}.rk-logo{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;font-size:1.375rem;font-weight:700;letter-spacing:2.25px;text-align:center;text-transform:uppercase;width:20%}.rk-logo sup{font-size:.5625rem;position:relative;top:-1px}@media (min-width: 64em){.rk-logo{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;text-align:left}}.rk-search{-webkit-align-self:flex-start;-ms-flex-item-align:start;align-self:flex-start;margin-bottom:3.4rem;margin-left:7.7rem;padding-top:.16rem;position:relative}.rk-search label,.rk-search input{display:inline-block;vertical-align:middle}.rk-search label{cursor:pointer;height:1.875rem;left:-1.5rem;padding-bottom:.67em;padding-top:0;position:absolute;top:0;-webkit-transition:color .3s;transition:color .3s;width:1.875rem;z-index:20}.rk-search svg{height:100%;width:100%}.rk-search input{background-color:transparent;border:0;font-size:.875rem;opacity:0;outline:0;padding:0;padding-bottom:.3em;-webkit-transition:.3s;transition:.3s;z-index:10;width:1px}.rk-search input:focus{opacity:1;padding-left:.5rem;width:100px}.rk-search input:focus + label{color:#a0a0a0}.rk-mobile-menu{display:none}.rk-mobile-menu + label{cursor:pointer;display:inline-block;height:24px;left:2.5vw;position:absolute;top:2.7rem;width:16px;z-index:300}.rk-mobile-menu + label svg{height:4px;width:20px;margin:0;display:block;margin-bottom:3px;-webkit-transition:.3s;transition:.3s}.rk-mobile-menu + label svg:nth-of-type(1){-webkit-transform-origin:center left;-ms-transform-origin:center left;transform-origin:center left}.rk-mobile-menu + label svg:nth-of-type(3){-webkit-transform-origin:center left;-ms-transform-origin:center left;transform-origin:center left}@media (min-width: 64em){.rk-mobile-menu + label{display:none}}.rk-mobile-menu:checked + label,.rk-mobile-menu + label:hover{color:#a0a0a0}.rk-mobile-menu:checked + label svg:nth-of-type(1){-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.rk-mobile-menu:checked + label svg:nth-of-type(2){-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);opacity:0}.rk-mobile-menu:checked + label svg:nth-of-type(3){-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}@-webkit-keyframes op{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes op2{0%{opacity:0}100%{opacity:1}}.rk-navigation{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-align-self:baseline;-ms-flex-item-align:baseline;align-self:baseline;display:none}@media (min-width: 64em){.rk-navigation{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}}.rk-menu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;font-size:.875rem;font-weight:700;letter-spacing:.5px;list-style:none;margin:0;padding:0;padding-top:.16rem}.rk-menu__item{color:#202020;display:inherit;padding-left:1.5rem;padding-right:1.5rem}.rk-menu__item:first-child{padding-left:0}.rk-menu__item:last-child{padding-right:0}.rk-menu__item.active{color:#a0a0a0}.rk-menu__link{padding-bottom:4.2rem}.rk-menu__sub{background-color:white;left:0;list-style:none;margin:0;padding:0;-webkit-transform:translateY(-1em);-ms-transform:translateY(-1em);transform:translateY(-1em);opacity:0;top:100%;-webkit-transition:.3s;transition:.3s;position:absolute;visibility:hidden;width:100%;z-index:-1}.rk-menu__sub ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;padding:1.375rem .5rem;max-width:101rem}.rk-menu__item:hover > .rk-menu__sub{opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);visibility:visible;z-index:2}@media (max-width: 64em){#mobile-menu:checked ~ .rk-topbar .rk-navigation{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:fixed;top:0;left:0;z-index:200;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:100%;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-webkit-flex-direction:column-reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:rgba(255, 255, 255, .95);overflow:auto}#mobile-menu:checked ~ .rk-topbar .rk-menu{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:1.25rem;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:85%}#mobile-menu:checked ~ .rk-topbar .rk-menu__item{padding-left:0;padding-right:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}#mobile-menu:checked ~ .rk-topbar .rk-menu__link{padding-bottom:1rem}#mobile-menu:checked ~ .rk-topbar .rk-menu__sub{background-color:transparent;margin-top:-.5rem;opacity:1;padding-bottom:.75rem;position:relative;top:0;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);visibility:visible}#mobile-menu:checked ~ .rk-topbar .rk-menu__sub ul{padding:0;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}#mobile-menu:checked ~ .rk-topbar .rk-menu__sub li{padding:0 .5rem}#mobile-menu:checked ~ .rk-topbar .rk-menu__sub a{padding-bottom:.5rem}#mobile-menu:checked ~ .rk-topbar .rk-search{-webkit-align-self:auto;-ms-flex-item-align:auto;align-self:auto;margin:0;width:85%}#mobile-menu:checked ~ .rk-topbar .rk-search label{display:none}#mobile-menu:checked ~ .rk-topbar .rk-search-field{opacity:1;padding:1rem;text-align:center;width:100%}}</style><link rel="stylesheet" href="assets/css/urku.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/urku.css"></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+<body class="top-fixed">
+  <header class="ae-container-fluid ae-container-fluid--full rk-header ">
+    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+    <label for="mobile-menu">
+      <svg>
+        <use href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use href="assets/img/symbols.svg#bar"></use>
+      </svg>
+    </label>
+    <div class="ae-container-fluid rk-topbar">
+      <h1 class="rk-logo"><a href="index.html">Marc Web App Angular<sup>tm</sup></a></h1>
+      <nav class="rk-navigation">
+        <ul class="rk-menu">
+          <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
+          </li>
+          <li class="active rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
+          </li>
+          <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
+          </li>
+          <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
+            <nav class="rk-menu__sub">
+              <ul class="rk-container">
+                <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
+                <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
+                <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+              </ul>
+            </nav>
+          </li>
+          <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
+          </li>
+        </ul>
+        <form class="rk-search">
+          <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
+          <label for="urku-search">
+            <svg>
+              <use href="assets/img/symbols.svg#icon-search"></use>
+            </svg>
+          </label>
+        </form>
+      </nav>
+    </div>
+  </header>
+  <app-root></app-root>
+  <script src="assets/js/svg4everybody.min.js"></script>
+  <script>svg4everybody();</script>
+<script src="runtime.e318c21faaa47e80.js" type="module"></script><script src="polyfills.590827f360953c0e.js" type="module"></script><script src="main.ae1b7c87f4dc91ff.js" type="module"></script>
+
+</body></html>
